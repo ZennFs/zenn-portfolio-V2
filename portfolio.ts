@@ -12,31 +12,31 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Moch Zein Fahmi Salas",
+  title: "Hi!, I'm Zein",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "I am a passionate Full Stack Developer with expertise in Laravel, JavaScript, React.js, and Next.js. I enjoy tackling complex problems and continuously learning new technologies to apply in my projects. With a collaborative mindset and a drive for growth, I strive to deliver innovative and efficient solutions. Let's connect and create exceptional digital experiences together!",
+  resumeLink: "assets/pdf/CV-MZein.pdf",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "ZennFs",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:zein.salas30@gmail.com",
+  linkedin: "https://www.linkedin.com/in/moch-zein-fahmi-salas/",
+  github: "https://github.com/ZennFs",
+  instagram: "https://www.instagram.com/zennnfs_",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK WEB DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
@@ -44,16 +44,16 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building RESTful APIs in Laravel Framework"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "Php",
+          iconifyTag: "logos:php",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Laravel",
+          iconifyTag: "vscode-icons:file-type-blade",
         },
         {
           skillName: "JavaScript",
@@ -68,21 +68,21 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "Tailwindcss",
+          iconifyTag: "logos:tailwindcss-icon",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "Mysql",
+          iconifyTag: "logos:mysql-icon",
         },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+        // {
+        //   skillName: "Docker",
+        //   iconifyTag: "logos:docker-icon",
+        // },
       ],
     },
   ],
@@ -91,7 +91,7 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    progressPercentage: "80", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
@@ -105,10 +105,10 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
-    desc: "",
+    schoolName: "Politeknik NSC Surabaya",
+    subHeader: "Associate Degree in Computer Technology",
+    duration: "September 2022 - Now",
+    desc: "I'm currently studying at Politeknik NSC Surabaya, majoring in Computer Technology. I'm in my 6rd semester and I'm looking forward to graduating soon.",
     grade: "Grade A",
     descBullets: [], // Array of Strings
   },
@@ -116,98 +116,104 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Programmer | Staff of ICT Division",
+    company: "Politeknik NSC Surabaya",
+    companyLogo: "/img/icons/common/NSC_PNG.png",
+    date: "Mei 2023 - Febuary 2025",
+    desc: "I specialize in developing backend solutions for various web applications and APIs tailored to campus needs. My experience includes working with:",
+    descBullets: [
+      "SIMUTU (Sistem Penjaminan Mutu) An internal quality assurance system designed to streamline and enhance the campus’s quality management processes.",
+      "SIMASET (Sistem Manajemen Aset) A comprehensive asset management system that helps track, manage, and optimize campus assets effectively.",
+      "SINORA (Sistem Notulen Rapat) A meeting minutes system that simplifies and organizes the recording and tracking of meeting outcomes across the campus.",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Laboran Computer",
+    company: "Politeknik NSC Surabaya",
+    companyLogo: "/img/icons/common/NSC_PNG.png",
+    date: "Feb 2024 - Feb 2025",
+    desc: "Collaborated with a dedicated team to plan and execute the installation and setup of a state-of-the-art computer laboratory at Politeknik NSC Surabaya. ",
+    descBullets: [
+      "Oversaw the end-to-end process, including hardware setup, networking configuration, and software installation to ensure peak performance and reliability.",
+      "Managed cable organization, optimized network connectivity, and ensured system security for a seamless user experience. ",
+      "Additionally, performed rigorous testing and troubleshooting to ensure system stability and readiness for academic use, supporting both faculty and students in their educational pursuits.",
+    ],
   },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
-  },
+  // {
+  //   role: "Full Stack Developer",
+  //   company: "ZRTechnologies",
+  //   companyLogo: "/img/icons/common/zrtech.jpeg",
+  //   date: "Aug 2022 - Jun 2023",
+  //   desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+  // },
+  // {
+  //   role: "Backend Developer",
+  //   company: "Bleed-AI",
+  //   companyLogo: "/img/icons/common/bleedAI.jpg",
+  //   date: "Sept 2021 - Oct 2021",
+  //   desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+  // },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Zen Portofolio v1",
+    desc: "My Portofolio website, showcasing my skills, projects, and experiences. Built with Next.js, Tailwind CSS, and Framer Motion for animations. Hosted on Vercel.",
+    github: "https://github.com/ZennFs/Portofolio-zen",
+    link: "https://portofolio-zenn.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Sistem Penjaminan Mutu",
+    desc: "A web-based quality assurance system (Sistem Penjaminan Mutu) focused on managing and streamlining institutional quality standards. Features include document management, audit tracking, and comprehensive reporting through an efficient admin panel.",
+    // github: "https://github.com/1hanzla100/developer-portfolio",
+    // link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Sistem Informasi Notulen Rapat",
+    desc: "A meeting minutes management system (Sistem Notulen Rapat) that streamlines meeting documentation, including proposal submissions, approvals, scheduling, minutes, photos, and web-based invitations, all managed through a responsive admin panel.",
+    github: "https://github.com/ZennFs/",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Sistem Informasi Maanajemen Aset",
+    desc: "An asset management system designed to handle asset inventory, procurement, allocation, maintenance, and decommissioning. The system streamlines asset tracking and lifecycle management through a robust admin panel.",
+    github: "https://github.com/ZennFs",
+  },
+  {
+    name: "E-Commerce",
+    desc: "A dynamic e-commerce platform enabling users to browse, search, and purchase products seamlessly. Features include product management, shopping cart, secure checkout, and order tracking.",
+    github: "https://github.com/ZennFs",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    name: "Mohamad Akhsan Rofiqi S.Kom",
+    role: "ICT Department Head of Politeknik NSC Surabaya",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "He's consistently delivers high-quality solutions with excellent problem-solving skills. His expertise and clear communication made complex projects run smoothly.",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    name: "Deva Pratama Kurniawan",
+    role: "Head of Computer Laboratory of Politeknik NSC Surabaya",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+      "He's showed great technical skills and attention to detail. His work significantly improved our computer lab’s workflow and system efficiency.",
   },
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Moch Zein Fahmi Salas - Portfolio",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Moch Zein Fahmi Salas",
+  image: "https://avatars.githubusercontent.com/u/34308969?v=4",
+  url: "https://portofolio-zenn.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "zennfs",
+    "Zein Salas",
+    "@zennnfs_",
+    "zennnfs",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Zenn Portfolio ",
+    "MOCH ZEIN FAHMI SALAS Portfolio",
   ],
 };
