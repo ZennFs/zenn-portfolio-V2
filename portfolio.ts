@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi!, I'm Zein",
   description:
     "I am a passionate Full Stack Developer with expertise in Laravel, JavaScript, React.js, and Next.js. I enjoy tackling complex problems and continuously learning new technologies to apply in my projects. With a collaborative mindset and a drive for growth, I strive to deliver innovative and efficient solutions. Let's connect and create exceptional digital experiences together!",
-  resumeLink: "assets/pdf/CV-MZein.pdf",
+  resumeLink: "assets/pdf/ZEINCV1.pdf",
 };
 
 export const openSource = {
